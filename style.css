@@ -1,0 +1,28 @@
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundário: #2b2b2b;
+    --botão-azul: #33025c;
+    --cor-de-fundo: #000000;
+}
+
+.body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.principal{
+    background-image: url("Design sem nome.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+}
+.Anime{
+    width: 1250px;
+}
