@@ -1,14 +1,17 @@
 :root{
     --branco-principal: #FFFFFF;
     --cinza-secundário: #2b2b2b;
-    --botão-azul: #33025c;
+    --botão-roxo: #33025c;
     --cor-de-fundo: #000000;
+    --fonte-principal: "Inter"
 }
 
 .body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
-
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 * {
     margin: 0%;
@@ -22,7 +25,24 @@
 
 .container{
     height: 100vh;
+    color: var(--branco-principal);
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
-.Anime{
-    width: 1250px;
+
+.containerbotao{
+    background-color: var(--botão-aroxo);
+    border-radius: 5px;
+    padding: 10px;
+    color: var(--branco-principal);
+    display: block;
+}
+.containerbotao2{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+
+}
+.container_aviso{
+    font-size: 12px;
+    color: var(--cinza-secundário);
 }
